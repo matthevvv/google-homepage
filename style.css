@@ -1,0 +1,21 @@
+main {
+    display: grid;
+    grid-template-areas: 'google-logo google-logo'
+    'search-bar search-bar'
+    'google-search-button feeling-lucky-button';
+}
+
+#google-logo {
+    width: 272px;
+    height: 92px;
+    grid-area: "google-logo";
+}
+#search-bar {
+    grid-area: "search-bar";
+}
+#google-search-button {
+    grid-area: "google-search-button";
+}
+#feeling-lucky-button {
+    grid-area: "feeling-lucky-button";
+}
