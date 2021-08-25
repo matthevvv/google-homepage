@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
     <title>Google</title>
 </head>
 <body>
+    <nav>
+
+    </nav>
     <main>
-        <img src="googlelogo_color_272x92dp.png" alt="Google logo" id="google-logo">
-        <form role="search" action="/q="> 
-            <input type="search" id="search-bar" name="q">
-            <input type="submit" id="google-search-button" name="google-search-button" value="Google Search">
+        <div id="center">
+        <div id="logo-space">
+        <img src="/images/googlelogo_color_272x92dp.png" alt="Google logo" id="google-logo">
+        </div>
+        <div id="search-space">
+        <form role="search" action="/q=" id="search-form"> 
+            <div id="search-box">
+            <div id="search-icon"><img src="/images/google-search.png" alt=""></div>
+            <input type="search" id="search-input" name="q" maxlength="2048" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" autofocus>
+            <div id="mic-icon"><img src="/images/google-microphone.png" alt=""></div>
+            </div>
+            <div id="button-space">
+            <input type="submit" id="google-search-button" value="Google Search">
             <button id="feeling-lucky-button" name="feeling-lucky-button">I'm Feeling Lucky</button>
+            </div>
         </form>
+        </div>
+        </div>
     </main>
+    <footer>
+        
+    </footer>
 </body>
 </html>
