@@ -1,6 +1,47 @@
 body{
     font-family: arial, sans-serif;
 }
+.material-icons-outlined {
+    font-family: 'material icons';
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+.navbar {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 75%;
+}
+#about {
+
+}
+#store {
+
+}
+#empty {
+
+}
+#gmail {
+
+}
+#images {
+
+}
+#apps-button {
+    font-size: 18pt;
+    color: #000;
+    opacity: 55%;
+}
+#apps-button:hover {
+    opacity: 100%;
+}
+#sign-in-button {
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+}
 main {
 
 }
@@ -80,7 +121,7 @@ main {
     gap: 15px;
     margin-top: 30px;
 }
-#google-search-button {
+.search-button {
     font-family: inherit;
     font-size: 14px;
     border: 1px solid transparent;
@@ -90,19 +131,9 @@ main {
     height: 36px;
     border-radius: 4px;
 }
-#google-search-button:hover {
+.search-button:hover {
     border-color: #c6c6c6;
 }
 #feeling-lucky-button {
-    font-family: inherit;
-    font-size: 14px;
-    border: 1px solid transparent;
-    background-color: #f2f2f2;
-    color: #5F6368;
-    padding: 0 16px;
-    height: 36px;
-    border-radius: 4px;
-}
-#feeling-lucky-button:hover {
-    border-color:#c6c6c6;
+
 }
