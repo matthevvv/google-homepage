@@ -68,26 +68,13 @@ a.applink:hover {
     box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
 }
 #center {
-    margin: 200px 25% 0 25%;
+    margin: 150px 25% 0 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
-@media (max-width: 1135px){
-   main {
-    width: 1135px;
-   } 
-   nav {
-    width: 1135px;
-   } 
-}
-@media (max-height: 765px){
-    #center {
-     margin-top: 155px;
-    } 
- }
 #google-logo {
     width: 272px;
     height: 92px;
@@ -196,3 +183,13 @@ a.footerlink:hover {
 #settings {
     padding-right: 30px;
 }
+@media (max-width: 1135px){
+    main,nav,footer {
+     width: 1135px;
+    } 
+ }
+ @media (max-height: 765px){
+     #center {
+      margin-top: 100px;
+     } 
+  }
