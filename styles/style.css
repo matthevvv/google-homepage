@@ -3,6 +3,7 @@ body{
 }
 .material-icons-outlined {
     font-family: 'material icons';
+    text-decoration: none;
 }
 nav {
     display: flex;
@@ -11,37 +12,46 @@ nav {
 }
 .navbar {
     font-family: arial, sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     color: #000;
     opacity: 75%;
     padding: 10px 10px 10px 10px;
 }
+a.navlink,a.applink {
+    color: #000;
+    opacity: 75%;
+    text-decoration: none;
+}
+a.navlink:hover {
+    color: #000;
+    opacity: 75%;
+    text-decoration: underline;
+}
+a.applink:hover {
+    color: #000;
+    opacity: 75%;
+    text-decoration: none;
+}
 #about {
     padding-left: 24px;
 }
-#store {
-
-}
 #empty {
     width: 80%;
-}
-#gmail {
-
-}
-#images {
-
 }
 #apps-button {
     font-size: 18pt;
     color: #000;
     opacity: 55%;
     padding: 16px 10px 10px 10px;
+    text-decoration: none;
 }
 #apps-button:hover {
     opacity: 100%;
+    text-decoration: none;
 }
 #sign-in {
     padding-right: 24px;
+    opacity: 100%;
 }
 #sign-in-button {
     font-family: arial, sans-serif;
@@ -49,17 +59,13 @@ nav {
     font-weight: bold;
     color: white;
     width: 70px;
-
     line-height: 28px;
     text-align: center;
     border: 1px solid #4285f4;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 #sign-in-button:hover {
     box-shadow: 0 1px 0 rgb(0 0 0 / 15%);
-}
-main {
-
 }
 #center {
     margin: 200px 25% 0 25%;
@@ -73,15 +79,15 @@ main {
    main {
     width: 1135px;
    } 
+   nav {
+    width: 1135px;
+   } 
 }
 @media (max-height: 765px){
     #center {
      margin-top: 155px;
     } 
  }
-#logo-space {
-
-}
 #google-logo {
     width: 272px;
     height: 92px;
@@ -129,7 +135,6 @@ main {
     width: 25px;
     height: 25px;
     padding-right: 15px;
-
 }
 #button-space {
     display: flex;
@@ -149,7 +154,45 @@ main {
 }
 .search-button:hover {
     border-color: #c6c6c6;
+    color: #000;
 }
-#feeling-lucky-button {
-
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid #f2f2f2e3;
+    background-color: #f2f2f2;
+}
+.footerbar {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    opacity: 75%;
+    padding: 10px 14px 10px 14px;
+}
+a.footerlink {
+    color: #000;
+    opacity: 75%;
+    text-decoration: none;
+}
+a.footerlink:hover {
+    color: #000;
+    opacity: 75%;
+    text-decoration: underline;
+}
+#advertising {
+    padding-left: 30px;
+}
+#how-search-works {
+    flex-shrink: 0;
+}
+#empty {
+    width: 75%;
+}
+#settings {
+    padding-right: 30px;
 }
